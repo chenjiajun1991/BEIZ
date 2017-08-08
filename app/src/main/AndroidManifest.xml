@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="baidumapsdk.demo.demoapplication">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 允许程序连接到已配对的蓝牙设备 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 允许程序发现和配对蓝牙设备 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 允许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 允许访问振动设备 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 屏幕保持唤醒 不锁屏 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 允许应用程序更改主屏幕中的设置和快捷方式 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+
+
+    <application
+        android:name=".VehicleTracker"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/customActionBar">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="EDgp8SI6golpLiwa92HWUIC7hRqmpF2H" />
+
+        <activity
+            android:name=".LancherActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".PreActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/customNoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".UserSignUp"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/user_sign_up"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ResetPassword"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/reset_password"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <receiver android:name=".AlarmGetDataReceiver" />
+
+        <activity
+            android:name=".DistributorView"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/distri_view"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".UserView"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/customer_view"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".AddCustomerInfo"
+            android:label="@string/add_user_info"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".AddDistributorInfo"
+            android:label="@string/add_user_info"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- android:parentActivityName=".MainActivity" -->
+        <activity
+            android:name=".OverlayDemo"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/oem_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserBatList"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/user_bat_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DistributorInfoList"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/dis_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutThisApp"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateApp"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/update_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="jim.h.common.android.zxinglib.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".BaiduTranceActivity" />
+
+        <service
+            android:name="com.baidu.trace.LBSTraceService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Login_main" />
+        <activity android:name=".GuideActivity" />
+        <activity android:name=".TestActivity" />
+
+        <!-- fitsSystemWindows 不设置此属性，标题栏和系统状态栏会重叠 -->
+        <activity
+            android:name="com.sam.beiz.controller.LauncherAcitivity"
+            android:fitsSystemWindows="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.sam.beiz.controller.WebViewActivity" />
+        <activity android:name="com.sam.beiz.controller.OnlineServiceActivity" />
+        <activity android:name="com.sam.beiz.controller.BeiZStoreActivity" />
+        <activity android:name="com.sam.beiz.controller.SetSOSPhone" />
+        <activity
+            android:name="com.sam.beiz.controller.SetSosPhoneAcivity"
+            android:label="@string/title_activity_set_sos_phone_acivity" />
+        <activity
+            android:name="com.sam.beiz.controller.WelcomActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sam.beiz.controller.HealthButlerActivity" />
+        <activity android:name="com.sam.beiz.controller.StoreChoiceActivity" />
+        <activity android:name="com.sam.beiz.controller.DefaultActivity" />
+        <activity android:name=".SelectPhotoAcitivity" />
+        <activity android:name="com.sam.beiz.controller.HealthListActivity" />
+        <activity android:name="com.sam.beiz.controller.SelfInfoAcitivity" />
+        <activity android:name="com.sam.beiz.controller.AdWebActivity" />
+        <activity android:name=".UpdateAppWebAcitivity" />
+        <activity android:name="com.sam.beiz.controller.CalenActivity" />
+        <activity
+            android:name="com.sam.beiz.Calendar.ui.AlarmAlert"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <receiver android:name="com.sam.beiz.Calendar.receiver.CallAlarm" />
+
+        <activity android:name="com.sam.beiz.Calendar.ui.ScheduleDetailsNoDataActivity" />
+
+        <receiver android:name="com.sam.beiz.Calendar.receiver.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.sam.beiz.Calendar.ui.ScheduleViewAddActivity" />
+        <activity android:name="com.sam.beiz.Calendar.ui.ScheduleInfoDetailActivity" />
+        <activity android:name="com.sam.beiz.OnLineService.OnLineServiceMainActivity" />
+
+        <service android:name="com.example.zhejunliu.service.up.UploadService" />
+
+        <activity android:name="com.sam.beiz.controller.RepairStateActivity" />
+        <activity android:name="com.sam.beiz.controller.WebView2Activity" />
+        <activity android:name="com.sam.beiz.controller.SeeMoreActivity" />
+        <activity android:name="com.sam.beiz.controller.AppliRepairActivity" />
+        <activity android:name="com.sam.beiz.controller.VideoActivity" />
+        <activity android:name="com.sam.beiz.controller.CameraActivity" />
+        <activity android:name="com.sam.beiz.controller.ImageActivity"></activity>
+        <activity
+            android:name="com.sam.beiz.Ad.landscapevideocapture.VideoCaptureActivity"
+            android:screenOrientation="sensor" >
+        </activity>
+
+
+        <provider
+
+            android:authorities="com.sam.beiz"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:name="android.support.v4.content.FileProvider">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+    </application>
+
+</manifest>

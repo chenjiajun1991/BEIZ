@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sam.beiz.controller.SelfInfoAcitivity"
+    android:orientation="vertical"
+    android:layout_marginTop="90dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="昵称："/>
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="省份："/>
+    <EditText
+        android:id="@+id/user_privence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="城市："/>
+    <EditText
+        android:id="@+id/user_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="性别："/>
+
+        <RadioGroup
+            android:id="@+id/user_six"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rdMan"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"/>
+            <RadioButton
+                android:layout_marginLeft="20dp"
+                android:id="@+id/rdGril"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:id="@+id/btn_info_summit"
+        android:background="@drawable/button_bg"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/background_light" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yaheng_logo_t"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.4"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo_description"
+        android:layout_gravity="center_horizontal"
+        android:text="text"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+
+
+   <LinearLayout
+       android:layout_marginTop="40dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="扫描下方二维码关注亚亨云动力公众号"
+    android:textSize="15dp"
+    android:textColor="@android:color/darker_gray" />
+<ImageView
+    android:layout_marginTop="10dp"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:src="@drawable/yhgzh"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="扫描下方二维码下载Android APP"
+           android:textSize="15dp"
+           android:textColor="@android:color/darker_gray" />
+       <ImageView
+           android:layout_marginTop="10dp"
+           android:layout_width="75dp"
+           android:layout_height="75dp"
+           android:src="@drawable/yhapp"/>
+
+   </LinearLayout>
+
+
+
+
+    <TextView
+    android:layout_marginTop="40dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="技术支持"
+    android:textSize="28dp"
+    android:textColor="#ff0000" />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="客服："
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="海燕：电话：021-33587686-8044"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="83dp"
+        android:text="微信：yhydc001"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="慧英：电话：021-33587686-8225"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="83dp"
+        android:text="微信：yhydc003"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="技术支持："
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="管毅：电话：17091262213"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="83dp"
+        android:text="微信：guanyi1989120"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="柏秋：电话：13585823836"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="83dp"
+        android:text="微信：rbqsdblalala"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工作时间：周一到周日 08:30 - 17:00"
+            android:textSize="15dp"
+            android:textColor="@android:color/darker_gray" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="(工作时间外请直接联系微信或手机)"
+            android:textSize="15dp"
+            android:textColor="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_statement"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/sam_statement"
+        android:textSize="18dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sam_info"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="@string/sam_info"
+        android:textSize="18dp"
+        android:textColor="@android:color/darker_gray" />-->
+
+
+</ScrollView>

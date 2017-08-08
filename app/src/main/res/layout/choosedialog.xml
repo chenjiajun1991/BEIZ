@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_height="140dp">
+
+    <ImageView
+        android:id="@+id/btnPhoto"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:paddingRight="50dp"
+        android:src="@drawable/camera" />
+
+    <ImageView
+        android:id="@+id/btnGallery"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:paddingLeft="50dp"
+        android:src="@drawable/gallery" />
+</LinearLayout>

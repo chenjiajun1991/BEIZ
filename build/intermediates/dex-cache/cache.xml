@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\BEIZ\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="750ee129eab23f9e3d26e72ec85eacedd11923be">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\BaiduLBS_Android_6f676a114375d10deda92babefd586078e609055.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\build\intermediates\exploded-aar\BEIZ\zxingjar\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="945d51787ee8b2dd20b4104d87055943585000e1">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\BEIZ-zxingjar-unspecified_e7952e599bd67078ce0709e4b3d39e2870eed03b.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\libs\spring-core-4.3.2.RELEASE.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="fd2f3cf45d3c84f293cb7ee3ab7d24c979495552">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\spring-core-4.3.2.RELEASE_1e54e90a0ef49e368c1263a71bdf46802e171cfa.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\build\intermediates\exploded-aar\BEIZ\zxingjar\unspecified\jars\libs\core.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="c4c99ffb0f83863fb95c9a6abe8a740afe8494c3">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\core_eb7926fa1e5013aced4f75121e161bcb1aad1f7e.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\libs\BaiduTraceSDK_v2_1_10.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="cd2b9fee6a33e7fd508c42628b88f662c6404f44">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\BaiduTraceSDK_v2_1_10_ffba705abced610156e24ac73bf102d661f55678.jar" />
+    </item>
+    <item
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0_45b77459468c1ef56f7c0fe8637ca2cae9ff11cf.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\libs\uploadpicture.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="64253c067db3eaf517b021092e12d4b257e8ffd8">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\uploadpicture_95571dde8754b4dbe3aee2bca7f3517a5ccf6298.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\libs\locSDK_5.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="58ba7f330d7f1a0de4464791e73a3123a47fd1d3">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\locSDK_5.0_89b69d64e9079bebd8471171a165bbdb1c5d799e.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-20.0.0_167fd252282b607eea8634b834012f666e4f3108.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0_f39088e77f949f765b1e23681df52b34429091ea.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\libs\httpclient-4.4.1.2.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="64950d33e2d3095cc831b414063bea45524103d4">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\httpclient-4.4.1.2_03354f02a53029f4b0a180627928f33168f006bc.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-20.0.0_030e67b81c6712a0d7141d649b0f74f7da16bd96.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\picasso-2.5.2_744ee9cc4a7602bbec421b94d4c1699373934286.jar" />
+    </item>
+    <item
+        jar="D:\BEIZ\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\BEIZ\app\build\intermediates\pre-dexed\release\gson-2.2.4_19476850fdced3b6006043f68d4e0b57fb5596b8.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,4271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<ScrollView
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="1.  贝珍医疗器械（上海）有限公司"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="地址:   上海嘉定区横仓公路2465号5栋"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话:   400 108 2349"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="2.  上海佳年乐电子商务有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   上海长寿路97号世纪商务大厦508-510"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   021-62278496"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="3.  上海释康医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   上海闵行区莘庄镇水清南路20号-5"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15021278182"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="4.  上海顶康医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   上海嘉定区南翔镇银裕路133号2幢120室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13588382891"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="5.  上海怡善医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   上海市松江区新桥镇场西路285弄93号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13482039409"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="6.  上海晶多电子科技有限公司"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="地址:   上海市青浦区金泽镇莲盛社区练西路2700号8幢103室"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话:   021-39806920"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="7.  上海良术医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   上海闵行区莘庄镇地铁北广场20-6"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15800521158"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="8.  上海电邦实业有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   上海市松江区中山中路847号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13761718088"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="9.  上海嘉园生物科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   上海市徐汇区斜士路1221号之俊大厦803室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15895639171"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="10.北京顺康寅成科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   北京市丰台区丽源路东局15号院"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13311317843"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="11.北京良生医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   北京市石景山区杨庄东街50号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="12.北京奥瑞康科技发展有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   北京市丰台区航丰路6号 北京奥瑞康科技发展有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   010-63737686"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="13.北京东前医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   北京市怀柔区南华市场对面华欣湾小区b3-1018室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15633790205"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="14.北京北褔辰科技开发有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   北京市海淀区复兴路83号东九楼325"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13391772518"/>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="15.康佳医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:   河北省沧州市解放东路28号欣怡电子城东50米康佳医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13831799026"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="16.长安夕阳花医疗器械经营部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省石家庄市长安区范西路19-4号  医疗器械店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0311-86211577"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="17.唐山康安医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省唐山市路南区南新西道100-5号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0315-2567069"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="18.唐山康纳医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  唐山市路北区光明路10-10号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15732518020"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="19.百仕得医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省保定市新市区乐凯北大街821号 （化纤东区）"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="20.石家庄安泰祺医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  石家庄桥西区西二环南路105号军蔷苑底商"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="21.石家庄映康医疗器械贸易有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省石家庄市长安区范西路19-4号商铺"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="22.河北硕宝医疗器械销售有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省石家庄市桥西区西二环南路付1-11号硕宝医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15532105891"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="23.保定通达医疗器械经营部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省保定市莲池区裕华东路193号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0312-5029968"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="24.石家庄君得莱医疗器械贸易有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省石家庄市桥西区西二环南路10号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="25.保定市瑞泰医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省保定市长城南大街 556号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13932244919"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="26.石家庄攀高医疗器械贸易有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省石家庄市桥西区西二环南路10号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   1317977395"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="27.盐山县快康康复器械门市部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省沧州市盐山县翠园路"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15132738598"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="28.康复医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河北省唐山市路北区西山道鑫雅园抵商23-7号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="29.天津市华胤医疗器械科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  天津市蓟县渔阳镇迎宾路华胤医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13207556889"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="30.天津长静医疗器械有限公司"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="地址:  天津市津南区双港工业园鑫港四号路3号"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话:   13207556889"/>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="31.重庆福安康老残病人用品"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  重庆市渝中区电视塔村二号付一号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13808302078"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="32.雨禾医疗"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  重庆市沙坪坝区都市花园中路104-8号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18623432373"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="33.达众医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山西省临汾候马市515地质队8号楼4单元3层"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13834175828"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="34.山西康利医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山西省长治市延安南路107号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13994628889"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="35.长治市唯安特医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  长治市城区府西路府西花苑3号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18818117870"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="36.平安医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  内蒙古乌海市海勃湾区人民南路新天地大厦北外围商铺"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15848313778"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="37.呼和浩特市康复假肢厂"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  呼和浩特市公园西路塞宝大厦轮椅车4S店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13394711336"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="38.沈阳世源医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省沈阳市和平区南七马路28号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13624075892"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="39.沈阳平露医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  沈阳市和平区南七马路28号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15001876036"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="40.大连辽南金瑞医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  大连市金州区光明街道劳动小区18号楼"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13909861218"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="41.葫芦岛市恒泰医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省葫芦岛市中心医院正门东100米"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13019991908"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="42.沈阳大慈科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  沈阳市和平区三好街100号C座2508"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15840232171"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="43.嘉誉医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省葫芦岛市连山区新地号嘉誉医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18742255252"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="44.永身态医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省朝阳市朝阳大街二段十八号永身态医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13942178517"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="45.天健医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省大连市沙河口区高尔基路248号天健医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18642812689"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="46.锦州市万达医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省丹东市宽甸县长青老年公寓"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13154163484"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="47.沈阳鑫浩宁医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省沈阳市和平区南六马路14号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="48.沈阳志鑫医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省沈阳市和平区南六马路"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="49.辽宁省大连凯悦医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省大连市沙河口区白山路19号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="50.锦州康联医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省锦州市古塔区重庆路二段聚基华脉2-135号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13050404328"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="51.沈阳健德利医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省沈阳市和平中山路20号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15940139968"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="52.葫芦岛中西医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  辽宁省葫芦岛市连山区连山大街20号中西医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13019999211"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="53.吉林省吉林市医药有限责任公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  吉林省吉林市北京路七号医疗器械商店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13147762766"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="54.松原市神峰医疗器械中心"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  吉林省松原市客运站斜对面神峰医疗器械中心"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13604382100"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="55.梨树县康普医疗仪器有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  吉林省四平市梨树县梨树镇一货运楼2单元"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15886072186"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="56.康馨电动轮椅专卖店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  吉林省吉林市桦甸市长白山特产商贸城"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13817977395"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="57.长春市南关区家泰医疗器械经销处"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  吉林省长春市南关区大经路1463号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13194385155"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="58.佳和医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  前进区顺德路七中南门对面"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13845452053"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="59.哈尔滨诺汉医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  哈尔滨市道外区靖宇街副275号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0451-88946488"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="60.哈尔滨市旭财医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  黑龙江省哈尔滨市道外区靖宇街183～2号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15945197873"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="61.哈尔滨市道外区聚鑫医疗器械经销部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  黑龙江省哈尔滨市道外区靖宇街222号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13904500185"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="62.常州浩扬医疗科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  常州西太湖科技产业园西太湖医疗产业孵化园C2号楼413室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13813526366"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="63.常州苏润医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江苏常州武进区星火北路3号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13776811077"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="64.淮安迪康贸易有限公司"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="地址:  江苏省淮安市淮海北路120号迪康医疗器械"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话:   13056021529"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="65.康复医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江苏沛县迎宾路皮防所对面汇康康复医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18361531922"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="66.国药控股国大苏药药房淮安有限公司二院中心店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江苏省淮安市淮海南路60号国大药房"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0517-83622006"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="67.张家港市家禾医疗用品有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  张家港市永安路1136～1140号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18901565558"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="68.徐州市欣峰医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  徐州市云龙区民富园绿地世纪城55号楼2单元101室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15150028960"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="69.张家港市康佑医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  张家港市杨舍镇永安路 7号（人民医院北 100米）"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13812581860"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="70.南通新怡医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江苏省南通市人民中路8号中南大厦2幢401室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13901485611"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="71.南京九州行假肢矫形器有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江苏南京建邺区河西大街71号明基医院康复医学科"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18901595763"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="72.睢宁县益康健医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江苏省徐州市睢宁县元府东路23号 益康健医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15190158717"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="73.太仓朱嘉医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  太仓市沙溪镇姚泾南路8-11号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15800717873"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="74.徐州芮爱商贸有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  徐州市泉山区中山南路成功大厦1#-11层"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13564051573"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="75.温州利尔康无障碍设施有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  温州利尔康无障碍设施有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13336990101"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="76.金华市康全医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  浙江省金华市宾虹路1067号（云天广场）"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15067071619"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="77.黄岩区残联残疾人辅助器服务中心"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  浙江省台州市黄岩区黄岩城劳动南路388号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13905763107"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="78.金华市朗日商贸有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  浙江省金华市婺城区新狮街道道院塘道新街85号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15067098125"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="79.台州市一健医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  浙江省台州市椒江区陵园路88号（市立医院住院部东部）"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0576-88503228"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="80.台州立人医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  浙江省天台县赤城街道朝晖街96号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15395896162"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="81.金华市合邦医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  金华市金东区多湖街道东湄工业区东湄街158号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15067098125"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="82.义乌市普特医疗用品有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  浙江省金华市义乌市龚大塘三区21栋5单元1楼"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15268612236"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="83.宁波残联辅具中心"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  宁波市北仑区霞浦街道朝北街36号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18668281878"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="84.仙居县益康医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  浙江省台州市仙居县城北东路水阁路口"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13136598670"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="85.淮南市康顺残供站"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  淮南市朝阳中路市残联一楼"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0554一2671984"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="86.合肥同春堂商贸有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  安徽省合肥市经济技术开发区芙蓉路724-726号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13909695756"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="87.奥康医疗器械公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  福建省莆田市梅园东路市儿童医院西边二楼奥康医疗器械公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0594-2288648"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="88.南平市延平区康耳声助听器材经营部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  南平市延平区滨江中路长富广场一楼17一18号店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0599--8824700"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="89.宜丰县健康之家"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江西省宜春市宜丰县公园94号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18770507171"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="90.江西乐秋康复中心"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江西南昌市东湖区贤士一路52号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13979447998"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="91.南昌天宁医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江西省南昌市象山南路220号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13517912286"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="92.江西玺悦医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江西省南昌市象山路148号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15070910382"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="93.南昌久安医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  江西省南昌市二七北路185号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15979102760"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="94.枣庄金辰医疗设备有限公司"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="地址:  山东省枣庄市矿物局医院西200米路西"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话:   13589607881"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="95.山东省烟台市众智医药有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东省威海市文登区三星河路1号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13475149768"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="96.济宁众人医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东济宁市中区人防办公室西西起第四间营业房"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18660470997"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="97.临沂市康友医械器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  临沂市兰山区开阳路与临西二路交汇向东一百米 农村信用社隔壁"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15863885356"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="98.山东省沂水县青援路中段"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东省临沂市沂水县青援路中段乡里湘外酒店西临"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18315703888"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="99.潍坊康复之家医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东省潍坊市潍城区胜利西街405号怡馨家园东临东方医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0536-8321630"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="100.鸿源医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东省高密市镇府街人民医院对面鸿源医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15963699133"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="101.山东省滨州市正大医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东省滨州市黄河二路渤海八路交叉口"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0543一3263816"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="102.福安康医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东省聊城市花园南路52号福安康医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18606358588"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="103.济南利川医疗器械有限公司"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="地址:  山东省济南市市中区中海国际社区尚湖央邸1-1-101"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话:   13953107881"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="104.临沂市蒙阳医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东临沂平邑美丽园小区2号楼2单元304"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18669487131"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="105.济南健保商贸有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东济南市天桥区河畔景苑28楼5单元401室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18678302869"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="106.山东好德医疗科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东省淄博市张店区新华街七号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18615136287"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="107.夏津县汇行医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东德州市夏津县蒋寨社区"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13290230345"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="108.淄博康复之家医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东淄博市张店区新华街19号康复之家"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13581029666"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="109.青岛益康达经贸有限公司"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="地址:  山东青岛市胶州市胶州西路55号"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话:   13864813800"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="110.鸿源医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  山东省高密市镇府街人民医院对面"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15963699133"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="111.郑州瑞郎光学光源医疗电子有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南郑州金水区大石桥"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13838268837"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="112.河南省兰考县孝亲堂"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南省开封市杞县西关人民医院左侧一品雅园"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15937830368"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="113.富安康老年人用品店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南省洛阳是栾川县幸福路中医院对面"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13698895600"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="114.康祺护理用品店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南省安阳市殷都区钢三路中段康祺护理（安钢医院北侧）"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13526119936"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="115.郑州嘉年福电子科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  郑州金水区金水路32-4"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13838268837"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="116.安阳市嘉利医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南省安阳市和平路与新兴街交岔路口 （新汽车站对面）"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18639066822"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="117.老年康复用品店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南省舞钢市朱兰建设路中段路北134号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13721881533"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="118.安阳市中芯医疗科技有限公司"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="地址:  安阳市龙安区太行路南段包装材料工业园3号院"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话:   13503728867"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="119.周口市康美医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南省项城市团结路莲花仙子南200米路西康美医疗"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15993211898"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="120.周口市恒威医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南省周口市人民路西段万鑫苑西区东30米路南"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15936006989"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="121.郑州众诚实验设备有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  郑州市金水路30号附1号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13598076770"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="122.郑州市乐康医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南郑州登封市郑少高速登封东出口黄楼路口医疗产业集聚区"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13598400268"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="123.洛阳市涧西区佳和医疗器械经营部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南洛阳市七里河周城大厦一楼 佳和医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13353909181"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="124.南阳市康诚医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  河南省南阳市卧龙区车站南路卫校口向南100米路东九安血压计门店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15093037170"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="125.至尊工艺医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  襄阳市樊城区中原路紫金新城"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18600536751"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="126.武汉东新创科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  武汉阅马场顺明大夏B座602室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   027-59826019"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="127.武汉康福太医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  武汉市青山区和平大道1256号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13995611152"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="128.和普家用医疗"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖北省荆州市荆中路五医旁"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13647191851"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="129.武汉蓝乔医用科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  武汉市武昌区中南路16-11-602"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13971426163"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="130.康复家用医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖北黄石市铁山区广友路5-1号铁山四医院正对面"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13597646799"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="131.湖北省残疾人辅助器具资源中心"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖北省武汉市付家坡一路25号2楼"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   027-87271859"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="132.通城县康复用品店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖北省通城县人民医院门诊对面康复用品"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13872185557"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="133.天门市哈乐医疗器械经营部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖北省天门市第一人民医院正对面"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13907222120"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="134.健平医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖北省仙桃市勉阳大道66号（健平医疗器械）"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18972637079"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="135.益阳恒盛医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  益阳巿赫山区秀峰东路330号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13907377735"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="136.岳阳市福乐康医疗器械仪器有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖南省岳阳市花板轿中药市场C区391一397号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18673014860"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="137.大康医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖南省郴州市桔井路大康医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13607359747"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="138.长沙市和佳医疗器械销售有限公司经销"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖南省长沙市开福区芙蓉中路一段下麻园岭巷2号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18073107100"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="139.真康医疗器械公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖南省湘潭市雨湖区砂子岭宝庆路299号真康医疗器械公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0731-52635678"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="140.军民医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖北省云梦县西大路大县委大院门口，军民医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15335756064"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="141.湖南省醴陵市中南医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖南省株洲市醴陵市青云北路7号，湘东医院对面"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18107412097"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="142.湘潭艾馨医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湘潭市岳塘区书院路21号西商住楼20号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13873298398"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="143.真康医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖南省湘潭市砂子岭宝庆路万润大楼7-8号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15273278688"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="144.湘西自治州康利医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湖南吉首市光明西路14号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13739044988"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="145.智越医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  湛江市麻章区瑞发路4号智越医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13542065180"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="146.深圳市欧蓓电子商务有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  深圳市宝安区宝安互联网产业基地A区3栋310室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18666222910"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="147.广州市荣兴健医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  广州市荔湾区花地大道南路86号留香综合交易市场"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   020-81402292"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="148.南宁奥健医疗科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  南宁市青秀区桃源路33号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   07712617678"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="149.广西南宁恒定医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  广西南宁市青秀区植物路46-17号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0771-2804315"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="150.广西奥美健商贸有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  广西省南宁市桃源路33号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18978923390"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="151.桂中大药房"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  柳州市城中连塘路78号桂中大药房（文昌店）"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15607720376"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="152.华正医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  四川南充营山县郎池镇翠中路畜牧局对面"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13309075253"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="153.新津灵康医疗器械经营部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  四川省成都市新津县惠安路16号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13548030353"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="154.成都孚瑞鑫泰科技有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  成都市青羊区光华村街50号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18780077001"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="155.成都翼秦医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  成都是金牛区古靖路"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18782230996"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="156.峨眉山市孝心坊中老年用品生活馆"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  四川省峨眉山市万年西路101号附11号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15281985265"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="157.荣县恒康莱医疗器械经营部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  四川省自贡市荣县长山镇迎宾街32号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15378351198"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="158.资阳市康路医疗器械经营部"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  四川省资阳市雁江区建设南路42号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15282228289"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="159.贵州和生医学电子有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  贵阳市南明区油榨街锦绣商务楼一楼一号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18508512708"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="160.江阴县中老年用品店"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  陕西安康市江阴县东城街19号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18209151635"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="161.富平昙助康医疗器械销售有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  陕西省富平昙南韩大街富尔酒店对面"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13279142578"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="162.西安佳诺医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  陕西省西安市莲湖区枣园西路219号万国佳诺医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18191567058"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="163.白河县残疾人康复辅具无障碍服务站"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  陕西省安康市白河县城残疾人康复辅具无障碍服务中心"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13772982208"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="164.陕西西安宝森医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  西安汉城北路25号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15991783382"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="165.陕西日宏医疗器械有限责任公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  陕西省西安市新城区长乐中路218号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13319233450"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="166.陕西宏达医疗器械保健品有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  西安市莲湖区大庆路680号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   15114805937"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="167.陕西华帆医疗设备有限公司"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="地址:  陕西西安市大庆路689号"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话:   029-82122591"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="168.甘肃众友健康医药股份有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  甘肃省兰州市安宁莫高大道39号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   0931-2105502"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="169.宁夏康复假肢矫形器有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  宁夏银川市开发区正源南街新昌东街344号"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13895110872"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="170.杨长升"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  青海省西宁市城西区西关大街146号海胡星城"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13119788281"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="171.李朝辉"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  青海省西宁市城东区七一路169号-7号比德尔电动车"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   17709786678"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="172.万氏创业医疗器械"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  乌鲁木齐市万氏创业医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13579858058"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="173.新疆金山医疗器械有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  新疆乌鲁木齐水区河滩北路顺和苑小区2-2-201室"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   18699126555"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="174.新疆致善堂医药连锁有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  库尔勒市新城辖区新华路49-6-1号柠檬公寓"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   09962117566"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="175.乌鲁木齐市鑫芃瑞科技发展有限公司"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="地址:  新疆乌鲁木齐市沙依巴克区奇台路"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话:   13999885895"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
+</RelativeLayout>

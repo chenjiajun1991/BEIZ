@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_health_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <com.sam.beiz.Ad.view.RefreshableView
+            android:layout_width="match_parent"
+            android:id="@+id/suggestRefresh"
+            android:layout_height="match_parent">
+                <ListView
+                    android:id="@+id/suggect_read_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+        </com.sam.beiz.Ad.view.RefreshableView>
+</LinearLayout>

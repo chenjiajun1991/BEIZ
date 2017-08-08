@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="72dp"
+    tools:context="com.sam.beiz.controller.RepairStateActivity">
+    <com.sam.beiz.Ad.view.RefreshableView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/refreshable_view"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/repairList"
+            android:layout_width="match_parent"
+            android:divider="#00000000"
+            android:dividerHeight="10dp"
+            android:layout_height="match_parent" />
+
+    </com.sam.beiz.Ad.view.RefreshableView>
+</LinearLayout>

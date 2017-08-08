@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:paddingTop="70dp">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设备IMEI号"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"/>
+                <EditText
+                    android:id="@+id/batteryDevId"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="none"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textview_signup"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设备序列号"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"/>
+                <EditText
+                    android:id="@+id/batterySN"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="none"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textview_signup"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设备SIM卡号"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"/>
+                <EditText
+                    android:id="@+id/batterySIMCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="none"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textview_signup"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="云电池节数"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textColor="@android:color/black"-->
+                    <!--android:textSize="15sp"-->
+                    <!--android:layout_marginTop="5dp"/>-->
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerBtyCount"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="45dp"-->
+                    <!--android:textSize="13sp"-->
+                    <!--android:spinnerMode="dropdown" />-->
+            <!--</LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="经销商手机号"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"/>
+                <EditText
+                    android:id="@+id/distributorPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textview_signup"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="购买人姓名"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"/>
+                <EditText
+                    android:id="@+id/batteryCustomerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="none"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textview_signup"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="购买人手机号"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"/>
+                <EditText
+                    android:id="@+id/batteryCustomerPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textview_signup"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户分组"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioUserGroup">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:checked="true"
+                    android:id="@+id/radioCommonUser"
+                    android:textSize="14sp"
+                    android:text="@string/user_group_common"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/radioSpecialUser"
+                    android:textSize="14sp"
+                    android:text="@string/user_group_special"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="添加"
+                    android:id="@+id/buttonCustomerInfo"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

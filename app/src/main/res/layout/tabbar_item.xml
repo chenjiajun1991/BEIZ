@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="30"
+    android:background="@drawable/tabbar_bg_selector"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_item"
+        style="@style/txt_tabbar"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:focusable="true"
+        android:textColor="@drawable/tabbar_text_selector" />
+
+</LinearLayout>

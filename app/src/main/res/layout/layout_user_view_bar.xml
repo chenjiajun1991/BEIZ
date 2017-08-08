@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/user_view_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:id="@+id/my_location"
+                android:layout_width="85dp"
+                android:layout_height="28dp"
+                android:text="我的位置"
+                android:textSize="18sp"
+                android:checked="true"
+                android:button="@null"
+                android:background="@drawable/store_tabbar_bg"
+                android:textColor="@drawable/radio_btn_font_style" />
+            <RadioButton
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:id="@+id/around_friend"
+                android:layout_width="85dp"
+                android:layout_height="28dp"
+                android:textSize="18sp"
+                android:text="附近轮友"
+                android:button="@null"
+                android:background="@drawable/store_tabbar_bg"
+                android:textColor="@drawable/radio_btn_font_style"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/left_back"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:background="@null"-->
+        <!--android:src="@drawable/back1" />-->
+
+    <!--<TextView-->
+        <!--android:paddingLeft="100dp"-->
+        <!--android:id="@+id/actionBar_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:textColor="#FFFFFFFF"-->
+        <!--android:textSize="22sp"-->
+        <!--/>-->
+    <!-- actionbar 右边按钮 -->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/right_imbt"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:background="@null"-->
+        <!--/>-->
+
+</RelativeLayout>  

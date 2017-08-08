@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sam.beiz.controller.SetSosPhoneAcivity"
+   android:layout_marginTop="80dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="紧急联系人姓名:"/>
+
+  <EditText
+      android:id="@+id/sos_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="紧急联系人号码:"/>
+
+    <EditText
+        android:id="@+id/sos_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:phoneNumber="true"/>
+
+    <Button
+        android:id="@+id/btn_save_phone"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:background="#0099ff"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+
+    <Button
+        android:id="@+id/btnEdit_phone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="编辑"
+        android:background="#0099ff"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+<!--<ListView-->
+    <!--android:id="@+id/list_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+<!--</ListView>-->
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sam.beiz.controller.CalenActivity">
+
+    <TextView
+        android:id="@+id/schedule_toptext"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/previous_year"
+        android:drawableRight="@drawable/next_year"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        tools:ignore="RtlHardcoded" />
+
+    <ViewFlipper android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeline_lv" />
+</LinearLayout>

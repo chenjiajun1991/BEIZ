@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=2sFUYBzIeDPeBCsqnTy51URuOUYLQ93W"></script>
+
+    <style type="text/css">
+        input[type=button][id=car]{
+        text-align: center;
+        margin: -3px;
+        background-color: #7EC0EE;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 12px;
+        border-radius:2px 0px 0px 2px;
+        border: 1px solid #7EC0EE;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        width: 40px;
+        height: 20px;
+
+        }
+        input[type=button][id=walk]{
+        text-align: center;
+        margin: -3px;
+        background-color: #ffffff;
+        font-size: 12px;
+        border-radius:0px 2px 2px 0px;
+        border: 1px solid #7EC0EE;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        width: 40px;
+        height: 20px;
+        }
+    </style>
+    <script>
+        function car(){
+            var bCar= document.getElementById("car");
+            var bWalk= document.getElementById("walk");
+            bCar.style.background = "#7EC0EE";
+            bCar.style.color = "#ffffff";
+            bCar.style.fontWeight ="bold";
+            bWalk.style.background = "#ffffff";
+            bWalk.style.color = "#000000";
+            bWalk.style.fontWeight ="normal";
+            drowCar();
+
+        }
+        function walk(){
+            var bCar= document.getElementById("car");
+            var bWalk= document.getElementById("walk");
+            bCar.style.background = "#ffffff";
+            bCar.style.color = "#000000";
+            bCar.style.fontWeight ="normal";
+            bWalk.style.background = "#7EC0EE";
+            bWalk.style.color = "#ffffff";
+            bWalk.style.fontWeight ="bold";
+            drowWalk();
+        }
+
+    </script>
+
+    <title>路径导航</title>
+
+    <script type="text/javascript">
+
+        function show(){
+            alert("位置信息获取中...");
+        }
+
+
+        //        function reLocation(lnt) {
+        //            alert(Lnt.lat+","+lnt.Lon);
+        //        }
+
+        function cfm() {
+            if(confirm("确认界面提示?")){
+                return true;
+            }else
+                return false;
+        }
+
+        function pmt() {
+            var place = prompt("请输入位置?","");
+        }
+
+        function setCookie(cname,cvalue,exdays)
+        {
+            var d = new Date();
+            d.setTime(d.getTime()+(exdays*24*60*60*1000));
+            var expires = "expires="+d.toGMTString();
+            document.cookie = cname + "=" + cvalue + "; " + expires;
+        }
+
+        function getCookie(cname)
+        {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0; i<ca.length; i++)
+            {
+                var c = ca[i].trim();
+                if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+            }
+            return "";
+        }
+
+    </script>
+
+</head>
+<body onload="show()">
+<div id="allmap"></div>
+
+
+<div style="position:absolute;top:10px;right:10px;z-index: 10000000">
+    <input id="car" type="button" value="驾车" onclick="car()">
+    <input id="walk" type="button" value="步行" onclick="walk()">
+</div>
+
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");
+    var mapType2 = new BMap.MapTypeControl({anchor: BMAP_ANCHOR_TOP_LEFT});
+    map.addControl(new BMap.NavigationControl());
+    map.addControl(new BMap.ScaleControl());
+    map.addControl(new BMap.OverviewMapControl());
+    map.addControl(mapType2);
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);
+    var start_lat,start_lon,end_lat,end_lon,flag;
+    var myPositon;
+    var guideIcon = new BMap.Icon("guide7.gif", new BMap.Size(32,32));
+
+
+    function rfInfo(jsonStr) {
+        if(flag ==null){
+            flag=0;
+        }
+
+        drow(jsonStr.startLat,jsonStr.startLon,jsonStr.endLat,jsonStr.endLon,flag);
+    }
+
+    function test(jsonStr) {
+        alert(jsonStr.startLat+"/"+jsonStr.startLon);
+        var a = Math.random()*100;
+        var b = a%0.003;
+        var point = new BMap.Point(jsonStr.startLon+b, jsonStr.startLat+b);
+        if(myPositon == null){
+            ////创建小狐狸
+//         var myIcon = new BMap.Icon("http://developer.baidu.com/map/jsdemo/img/fox.gif", new BMap.Size(300,157));
+
+//            var myIcon = new BMap.Icon("guide7.gif", new BMap.Size(32,32));
+            myPositon = new BMap.Marker(point,{icon:guideIcon});  // 创建标注
+
+//            myPositon = new BMap.Marker(new BMap.Point(jsonStr.startLon+b, jsonStr.startLat+b)); // 创建点
+            map.addOverlay(myPositon);            //增加点
+        }else{
+            myPositon.setPosition(point);
+        }
+    }
+
+    function drow(startLat,startLon,endLat,endLon,flag){
+        map.clearOverlays();
+        myPositon = null;  //，清空覆盖物后，把我的位置重置为null，才能重新绘制
+
+        start_lat = startLat;
+        start_lon = startLon;
+        end_lat = endLat;
+        end_lon = endLon;
+
+        var centerLat = (startLat+endLat)/2;
+        var centerLon = (startLon+endLon)/2;
+        var driving;
+        var driving2;
+
+        map.centerAndZoom(new BMap.Point(centerLon, centerLat), 15);
+
+        var myP1 = new BMap.Point(startLon,startLat);    //起点
+        var myP2 = new BMap.Point(endLon,endLat);    //终点
+        var myIcon = new BMap.Icon("http://developer.baidu.com/map/jsdemo/img/Mario.png", new BMap.Size(32, 70), {    //小车图片
+            //offset: new BMap.Size(0, -5),    //相当于CSS精灵
+            imageOffset: new BMap.Size(0, 0)    //图片的偏移量。为了是图片底部中心对准坐标点。
+        });
+        if(flag ==1 ){
+            driving2 = new BMap.WalkingRoute(map, {renderOptions:{map: map, autoViewport: true}});   //步行实例
+        }else{
+            driving2 = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true}});    //驾车实例
+        }
+        driving2.search(myP1, myP2);    //显示一条公交线路
+
+        <!--var point = new BMap.Point(startLat,startLon);-->
+        <!--myPositon = new BMap.Marker(point,{icon:guideIcon});  // 创建标注-->
+        <!--map.addOverlay(myPositon);-->
+
+
+        window.run = function (){
+            if(flag==1){
+                driving = new BMap.WalkingRoute(map);    //步行实例
+            }else{
+                driving = new BMap.DrivingRoute(map);    //驾车实例
+            }
+            driving.search(myP1, myP2);
+            driving.setSearchCompleteCallback(function(){
+                var pts = driving.getResults().getPlan(0).getRoute(0).getPath();    //通过驾车实例，获得一系列点的数组
+                var paths = pts.length;    //获得有几个点
+
+                var carMk = new BMap.Marker(pts[0],{icon:myIcon});
+                map.addOverlay(carMk);
+                i=0;
+                function resetMkPoint(i){
+                    carMk.setPosition(pts[i]);
+                    if(i < paths){
+                        setTimeout(function(){
+                            i++;
+                            resetMkPoint(i);
+                        },100);
+                    }
+                }
+                setTimeout(function(){
+                    resetMkPoint(5);
+                },100)
+
+            });
+        }
+
+        setTimeout(function(){
+            run();
+        },1500);
+    }
+
+    function drowCar(){
+        flag = 0;
+        drow(start_lat,start_lon,end_lat,end_lon,0);
+    }
+    function drowWalk(){
+        flag = 1;
+        drow(start_lat,start_lon,end_lat,end_lon,1);
+    }
+
+</script>
+
+</body>
+</html>

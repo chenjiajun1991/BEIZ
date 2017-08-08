@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_health_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="72dp"
+    tools:context="com.sam.beiz.controller.HealthListActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.33"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/health"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView3" />
+    </LinearLayout>
+    <com.sam.beiz.Ad.view.RefreshableView
+        android:layout_width="match_parent"
+        android:id="@+id/refreshable_view"
+        android:layout_weight="0.67"
+        android:layout_height="0dp">
+        <ListView
+            android:id="@+id/health_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.sam.beiz.Ad.view.RefreshableView>
+
+</LinearLayout>

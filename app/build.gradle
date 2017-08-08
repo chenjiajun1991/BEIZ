@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "com.sam.beiz"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 4
+        versionName "1.4.9"
+    }
+    buildTypes {
+        release {
+//            minifyEnabled true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    repositories {
+        jcenter()
+    }
+}
+
+
+dependencies {
+    compile files('libs/locSDK_5.0.jar')
+    compile project(':zxingjar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/BaiduTraceSDK_v2_1_10.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/httpclient-4.4.1.2.jar')
+    compile files('libs/picasso-2.5.2.jar')
+    compile files('libs/spring-core-4.3.2.RELEASE.jar')
+    compile files('libs/uploadpicture.jar')
+    compile 'com.android.support:appcompat-v7:20.0.0'
+    compile 'com.android.support:support-annotations:20.0.0'
+
+}
